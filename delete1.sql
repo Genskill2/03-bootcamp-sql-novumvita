@@ -1,5 +1,5 @@
 DElETE FROM books_subjects
-LEFT OUTER JOIN subjects
+INNER JOIN subjects
 ON books_subjects.subject = subjects.id 
 WHERE subjects.name IS "History";
 

@@ -1,0 +1,1 @@
+SELECT DISTINCT book FROM books_subjects WHERE subject IN "Technology" OR subject IN "Politics";

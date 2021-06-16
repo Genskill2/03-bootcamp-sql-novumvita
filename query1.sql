@@ -1,0 +1,1 @@
+SELECT books.title FROM books, publisher AS pub_table WHERE books.publisher = pub_table.id AND pub_table.name IS "PHI";

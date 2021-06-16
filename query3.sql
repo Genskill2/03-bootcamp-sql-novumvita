@@ -1,1 +1,1 @@
-SELECT subjects.name FROM books_subjects, subjects WHERE books_subjects.subject = subjects.id AND subjects.name IN ("Technology", "Politics");
+SELECT books.title FROM books_subjects, subjects, books WHERE books_subjects.subject = subjects.id AND subjects.name IN ("Technology", "Politics");

@@ -1,4 +1,4 @@
-DElETE FROM books_subjects 
+DElETE FROM books_subjects, subjects 
 WHERE books_subjects.subject = subjects.id 
 AND subjects.name IS "History";
 

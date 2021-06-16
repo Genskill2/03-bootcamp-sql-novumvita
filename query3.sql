@@ -1,1 +1,1 @@
-SELECT DISTINCT book FROM books_subjects WHERE subject IN ("Technology", "Politics");
+SELECT book FROM books_subjects WHERE subject IN ("Technology", "Politics");
